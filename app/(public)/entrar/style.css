@@ -1,0 +1,53 @@
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Saira Stencil One';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    height: fit-content;
+    color: white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+input::placeholder{
+        color: black;
+        background-color: white;
+        font-size: 18px;
+        padding-left: 15px;
+}
+    
+input{
+    width: 326px;
+    height: 58px;
+    border-radius: 5px;
+}
+
+button{
+    color: white;
+    background-color: #A328D6;
+    width: 326px;
+    height: 46px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding-top: 20px;
+    font: 700 15px 'Raleway';
+}
